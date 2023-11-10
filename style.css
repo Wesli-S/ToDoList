@@ -1,7 +1,6 @@
 #display > div {
-    border: 1px solid black;
-    width: 25%;
     display: inline-block;
+    list-style-type: circle;
 }
 
 .finished {

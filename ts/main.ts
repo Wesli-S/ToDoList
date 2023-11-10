@@ -26,6 +26,8 @@ function addToList(){
     //create elements/add text
     let itemDiv = document.createElement("div");
     let listItem = document.createElement("p");
+    listItem.textContent = newListItem.item; //makes the item visible
+    
     //add elements to div
     itemDiv.appendChild(listItem);
 

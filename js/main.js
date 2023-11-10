@@ -10,6 +10,7 @@ function addToList() {
     newListItem.item = item;
     let itemDiv = document.createElement("div");
     let listItem = document.createElement("p");
+    listItem.textContent = newListItem.item;
     itemDiv.appendChild(listItem);
     let divDisplay = document.querySelector("#display");
     divDisplay.appendChild(itemDiv);
