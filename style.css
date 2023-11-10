@@ -1,0 +1,9 @@
+#display > div {
+    border: 1px solid black;
+    width: 25%;
+    display: inline-block;
+}
+
+.finished {
+    background-color: rgb(206, 255, 165);
+}
