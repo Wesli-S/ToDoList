@@ -9,7 +9,7 @@ function addToList() {
     let newListItem = new ToDo();
     newListItem.item = item;
     let itemDiv = document.createElement("div");
-    let listItem = document.createElement("p");
+    let listItem = document.createElement("li");
     listItem.textContent = newListItem.item;
     itemDiv.appendChild(listItem);
     let divDisplay = document.querySelector("#display");

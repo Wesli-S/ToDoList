@@ -28,7 +28,7 @@ function addToList(){
     /*Formatting how the list pops up */
     //create elements/add text
     let itemDiv = document.createElement("div");
-    let listItem = document.createElement("p");
+    let listItem = document.createElement("li");
     listItem.textContent = newListItem.item; //makes the item visible
 
     //add elements to div
