@@ -1,5 +1,6 @@
 #display > div {
     list-style-type: circle;
+    width: 25%;
 }
 
 .finished {
