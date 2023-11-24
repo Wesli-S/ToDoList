@@ -31,9 +31,9 @@ h1 {
 
 #display > div {
     list-style-type: circle;
-    width: 25%;
-    margin-top: 13px;
-    margin-left: 90px;
+    margin-top: 9px;
+    margin-left: 105px;
+    margin-bottom: 13px;
     zoom: 150%;
 }
 
