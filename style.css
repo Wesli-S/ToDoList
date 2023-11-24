@@ -1,5 +1,7 @@
 body{
     background-color: rgb(63, 136, 96);    
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 main{
@@ -12,18 +14,29 @@ main{
     text-align: center;
     border: 2px solid rgb(173, 241, 183);
     zoom: 150%;
+    background-color: rgb(140, 162, 211);
 }
 
-#h2 {
-    margin-left: 175px;
-    margin-right: auto;
+h1 {
+    margin-left: 160px;
+    margin-bottom: 0px;
+    padding-top: 75px;
 }
+
+#list-background > div{
+    border: 2px solid rgb(173, 241, 183);
+    background-image: url(NotebookPaper.jpg);
+}
+
 
 #display > div {
     list-style-type: circle;
     width: 25%;
+    margin-top: 13px;
+    margin-left: 90px;
+    zoom: 150%;
 }
 
 .finished {
-    background-color: rgb(206, 255, 165);
+    background-color: rgb(126, 255, 20);
 }
